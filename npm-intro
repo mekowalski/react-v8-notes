@@ -17,6 +17,22 @@ NODE PACKAGE MANAGER(NPM)
 PACKAGE.JSON
 -Holds a list of dependencies within one file of package.json
 -This file explains what packages are necessary for specific JavaScript applications
+-Key part in sharing JavaScript code repositories on sites like GitHub
+-Instead of including all dependencies with every project, just include a small file to list what NPM needs
+-package.json is written in JSON, therefore it will always be wrapped in {} and include key-value pairs
+-EG: React/Redux Song App
+    {
+    "name": "rr-song-client",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "react": "^16.9.0",
+      "react-dom": "^16.9.0",
+      "react-redux": "^7.1.1",
+      "react-scripts": "3.0.1",
+      "redux": "^4.0.4",
+      "redux-thunk": "^2.3.0"
+    }
 
 NPM INSTALL
 -Command 'npm install' within a directory where package.json is present will read each dependency and
