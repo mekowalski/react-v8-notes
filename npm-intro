@@ -1,9 +1,19 @@
-NODE PACKAGE MANAGER(NPM)
+INTRODUCTION
 -Helps organize packages of reusable code for relation to coding work/projects
 -Existing code is valuable to suit needs and to incorporate into projects
 -Never want to 'reinvent the wheel' and write code that may already exist
 
 SETUP NODE PACKAGE MANAGER
--NPM automatically installed with Node.js, should already be installed in system when working with JavaScript
+-NPM automatically installed with Node.js, should already be installed in system working with JavaScript
 -Command 'node -v' will show the version of Node.js installed (eg: 110119 - v11.2.0)
 -Command 'npm -v' will shoe version of NPM itself (eg: 110119 - 6.10.2)
+
+NODE PACKAGE MANAGER(NPM)
+-NPM is a package manager for JavaScript, working with JavaScript project directories via command line
+-Packages range in size of quite small to massive libraries and frameworks(React/Express)
+  -Often times larger packages(React/Express) are built using a combo of other packages
+-Modualar design allows ability to build a package using other packages to expand JavaScript world
+
+PACKAGE.JSON
+-Holds a list of dependencies within one file of package.json
+-This file explains what packages are necessary for specific JavaScript applications
