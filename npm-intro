@@ -40,3 +40,12 @@ NPM INSTALL
 -npm install creates a node_modules folder to hold all downloaded packages
 -Those packages have their own package.json with their own dependencies as well
 -NPM goes through sub-packages to retrieve any sub-dependencies which is referred as Dependency Trees
+
+NPM INIT
+-This will begin a series of prompts, asking about certain content to include in the file
+-It will create or edit an existing package.json file
+
+
+Key Terms
+-NPM: Node Package Manager, command line tool for organizing packages of JavaScript code
+-Node: JavaScript runtime, allowing JavaScript to run locally on computer instead of browser
