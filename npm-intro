@@ -12,8 +12,15 @@ NODE PACKAGE MANAGER(NPM)
 -NPM is a package manager for JavaScript, working with JavaScript project directories via command line
 -Packages range in size of quite small to massive libraries and frameworks(React/Express)
   -Often times larger packages(React/Express) are built using a combo of other packages
--Modualar design allows ability to build a package using other packages to expand JavaScript world
+-Modular design allows ability to build a package using other packages to expand JavaScript world
 
 PACKAGE.JSON
 -Holds a list of dependencies within one file of package.json
 -This file explains what packages are necessary for specific JavaScript applications
+
+NPM INSTALL
+-Command 'npm install' within a directory where package.json is present will read each dependency and
+ download the packages from npmjs.com where they're hosted
+-npm install creates a node_modules folder to hold all downloaded packages
+-Those packages have their own package.json with their own dependencies as well
+-NPM goes through sub-packages to retrieve any sub-dependencies which is referred as Dependency Trees
