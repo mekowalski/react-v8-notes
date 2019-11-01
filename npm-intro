@@ -2,3 +2,8 @@ NODE PACKAGE MANAGER(NPM)
 -Helps organize packages of reusable code for relation to coding work/projects
 -Existing code is valuable to suit needs and to incorporate into projects
 -Never want to 'reinvent the wheel' and write code that may already exist
+
+SETUP NODE PACKAGE MANAGER
+-NPM automatically installed with Node.js, should already be installed in system when working with JavaScript
+-Command 'node -v' will show the version of Node.js installed (eg: 110119 - v11.2.0)
+-Command 'npm -v' will shoe version of NPM itself (eg: 110119 - 6.10.2)
