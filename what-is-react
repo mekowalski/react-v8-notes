@@ -4,3 +4,12 @@ REACT
 -React is a framework built entirely out of JavaScript using combination of dependencies
 -With combination of JSC and vanilla JavaScript, provides snippets similar to HTML
 -Components separate code and function in logical ways to produce reusable, independent pieces
+
+AWESOME REACT FEATURES
+-Virtual DOM: allows for fast, efficient content rendering
+-Declarative Writing: allows for simple expression of how app should look. React handles data updates
+-Babel: Included transpiler to convert modern JavaScript and custom code to be compatible with JavaScript
+-Webpack: A 'bundler' to take all work, along with required dependencies, to create a transferable bundle
+-ESLint: Built-in functionality to help improve code
+-'create-react-app': Tool to easily create new React project from scratch
+  -Also sets up default, configured project, ready to launch with npm start
