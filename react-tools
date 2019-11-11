@@ -1,0 +1,8 @@
+HELPFUL RESOURCES FOR REACT LEARNING
+1. With using Atom, download JSX plugin.  Porvides great syntax highlighting for code specific to React
+2. React DevTools Chrome Extension.  Install and will provide access to tools for debugging React programs
+3. Thinking in React.  A reading provided from official React docs that walk through how React applications
+  and component structure
+4. React Documentation.  Courtesy of Facebook providing the entire React library
+5. Error Handling with Fetch.  Provides a gist that helps handle error messages generically
+  'https://gist.github.com/odewahn/5a5eeb23279eed6a80d7798fdb47fe91'
