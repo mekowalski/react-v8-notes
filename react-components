@@ -6,14 +6,29 @@ COMPONENTS
 -Predictable packages to keep organization of code that describe what should be rendered on to DOM
 
 REACT APPLICATION EXAMPLE
+-This example isn't 100% correctly used BUT it's just to simplify for myself
 -A Song application that displays attributes of the song
 1. Write the components
-class Song extends React.Component {
+class Songs extends React.Component {
   render() {
     return (
       <div>
-        Song Title Uno - Artist Uno
+        Song Title Un - Artist Un
+        Song Title Deux - Artist Deux
+        Song Title Trois - Artist Trois
       </div>
+    )
+  }
+}
+
+class SongDetails extends React.Component {
+  render () {
+    return (
+      <div>
+        Song Un Details - Title, Artist, Year, Length, Genre
+        Song Deux Details - Title, Artist, Year, Length, Genre
+        Song Trois Details - Title, Artist, Year, Length, Genre
+      <div>
     )
   }
 }
@@ -23,3 +38,14 @@ class Song extends React.Component {
 -render(): A method defining what should be explicitly returned
 
 2. Use the components
+-Make sure the Components are rendered within the App Component which is the MAIN/PARENT component
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Songs />
+        <SongDetails />
+      </div>
+    )
+  }
+}
