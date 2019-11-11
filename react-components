@@ -4,3 +4,10 @@ COMPONENTS
  about each piece in isolation
 -Components give both Function and Presentation in modular forms
 -Predictable packages to keep organization of code that describe what should be rendered on to DOM
+
+REACT APPLICATION EXAMPLE
+-A Song application that displays attributes of the song
+1. Write the components
+
+
+2. Use the components
