@@ -49,3 +49,6 @@ class App extends React.Component {
     )
   }
 }
+
+-JSX: used within a return() statement that is React's syntax to render components among other details
+-App's Component is simply stating: please render the Song and SongDetails components onto the DOM
