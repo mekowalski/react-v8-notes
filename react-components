@@ -1,0 +1,6 @@
+COMPONENTS
+-The HEART of React is Components
+-Official React Docs states: Components let you splut the UI into independent, reusable pieces, and think
+ about each piece in isolation
+-Components give both Function and Presentation in modular forms
+-Predictable packages to keep organization of code that describe what should be rendered on to DOM
