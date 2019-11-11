@@ -8,6 +8,18 @@ COMPONENTS
 REACT APPLICATION EXAMPLE
 -A Song application that displays attributes of the song
 1. Write the components
+class Song extends React.Component {
+  render() {
+    return (
+      <div>
+        Song Title Uno - Artist Uno
+      </div>
+    )
+  }
+}
 
+-Class: New class Song is declared
+-React.Component: Song class extends React's Component class which provides built in methods/attributes
+-render(): A method defining what should be explicitly returned
 
 2. Use the components
